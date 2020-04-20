@@ -451,6 +451,42 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e0b0f",endCo
     height: 400px;
 }
 
+/* Phones */
+@media screen and (min-width: 370px) and (max-width: 430px) {
+
+    #hero {
+        height: 530px;
+    }
+
+    .heroText {
+        transform: translateY(-10px);
+    }
+}
+
+/* Phones */
+@media screen and (min-width: 370px) and (max-width: 430px) {
+
+    .heroText h1 {
+        width: 350px;
+        font-size: 30px;
+    }
+
+    .heroText h2 {
+        width: 300px;
+    }
+
+    .icon-group {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .icons {
+        width: 180px;
+    }
+}
+
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
 
