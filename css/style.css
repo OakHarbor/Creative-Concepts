@@ -34,8 +34,8 @@
     height: 100%;
     width: 100%;
     background: rgb(13,54,76);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(13,54,76,1)), color-stop(56%, rgba(59,151,210,0.9373549883990719)), to(rgba(37,245,254,0.8909512761020881)));
     background: -o-linear-gradient(top, rgba(13,54,76,1) 0%, rgba(59,151,210,0.9373549883990719) 56%, rgba(37,245,254,0.8909512761020881) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(13,54,76,1)), color-stop(56%, rgba(59,151,210,0.9373549883990719)), to(rgba(37,245,254,0.8909512761020881)));
     background: linear-gradient(180deg, rgba(13,54,76,1) 0%, rgba(59,151,210,0.9373549883990719) 56%, rgba(37,245,254,0.8909512761020881) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d364c",endColorstr="#25f5fe",GradientType=1);
     opacity: 1;
@@ -459,7 +459,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e0b0f",endCo
     }
 
     .heroText {
-        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+            -ms-transform: translateY(-10px);
+                transform: translateY(-10px);
     }
 }
 
@@ -476,9 +478,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e0b0f",endCo
     }
 
     .icon-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         margin-bottom: 30px;
     }
 
