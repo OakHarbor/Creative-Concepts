@@ -656,7 +656,7 @@
 
     #hero {
         background: url("/images/landing.jpg");
-        height: 1000px;
+        height: 900px;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -704,6 +704,10 @@
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+            -ms-transform: translateY(-20px);
+                transform: translateY(-20px);
     }
 
     .heroText h1 {
