@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-wrapper {
 	background: #fff;
     border-bottom: 5px solid var(--primary);
-    height: 100px;
+    height: 130px;
 }
 
 /* hidden desktop elements */
@@ -294,7 +294,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Navigation Links */
 
 .mobile-wrapper img {
-	height: 40px;
+    height: 70px;
+    transform: translateY(20px);
+    position: relative;
+    z-index: 10000;
 }
 
 .navbar-menu {
@@ -357,7 +360,9 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--primary);
 }
 
-
+.nav-remove {
+    display: none;
+}
 
 
 /* Desktop */
