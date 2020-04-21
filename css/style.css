@@ -909,7 +909,7 @@
     <--- -------------------------- -*/
 
     #video {
-        height: 1200px;
+        height: 1000px;
         background-attachment: fixed;
     }
 
@@ -978,9 +978,6 @@
         margin: 0 !important;
         padding: 0;
         max-width: 1200px;
-        -webkit-transform: translateY(-200px);
-            -ms-transform: translateY(-200px);
-                transform: translateY(-200px);
     }
 
     .quality-card {
