@@ -371,7 +371,7 @@
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 530px;
+    height: 630px;
 }
 
 .top-image {
@@ -392,9 +392,9 @@
 #video:before {
     content: '';
     background: rgb(94,11,15);
-background: -o-linear-gradient(305deg, rgba(94,11,15,1) 0%, rgba(140,17,23,0.927608543417367) 72%, rgba(234,28,38,0.8295693277310925) 100%, rgba(240,96,103,1) 100%);
-background: linear-gradient(145deg, rgba(94,11,15,1) 0%, rgba(140,17,23,0.927608543417367) 72%, rgba(234,28,38,0.8295693277310925) 100%, rgba(240,96,103,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e0b0f",endColorstr="#f06067",GradientType=1);
+    background: -o-linear-gradient(305deg, rgba(94,11,15,1) 0%, rgba(140,17,23,0.927608543417367) 72%, rgba(234,28,38,0.8295693277310925) 100%, rgba(240,96,103,1) 100%);
+    background: linear-gradient(145deg, rgba(94,11,15,1) 0%, rgba(140,17,23,0.927608543417367) 72%, rgba(234,28,38,0.8295693277310925) 100%, rgba(240,96,103,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e0b0f",endColorstr="#f06067",GradientType=1);
     position: absolute;
     top: 0;
     height: 100%;
@@ -405,6 +405,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e0b0f",endCo
     position: relative;
     width: 100%;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .video-content h2 {
@@ -413,7 +417,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e0b0f",endCo
     z-index: 1000;
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 50px;
 }
 
 .video-content h3 {
@@ -427,13 +430,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e0b0f",endCo
 
 .video {
     background: url("/images/house.png");
-    width: 90%;
+    width: 80%;
     height: 200px;
     background-size: cover;
     background-position: center;
     position: absolute;
     z-index: 100;
     margin: auto;
+    bottom: -150px;
 }
 
 .iframe {
@@ -448,7 +452,63 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e0b0f",endCo
 <--- -------------------------- -*/
 
 #qualities {
-    height: 400px;
+    height: auto;
+}
+
+.quality-card {
+    padding: 50px 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 21px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 21px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 21px -9px rgba(0,0,0,0.75);
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.svg-line {
+    width: 50px !important;
+    height: auto;
+}
+
+.icon-svg {
+    width: 70px !important;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.quality-card h3 {
+    text-align: center;
+}
+
+.quality-card p {
+    text-align: center;
+}
+
+.spotlight {
+    background: var(--secondary);
+    color: rgba(250, 250, 250, .98);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.spotlight h2 {
+    font-size: 30px;
+    line-height: 1.4em;
+}
+
+.spotlight svg {
+    width: 70px !important;
+    height: auto;
+}
+
+.spotlight p {
+    color: rgba(250, 250, 250, .95);
+    margin-bottom: 25px;
+    text-align: left;
+    align-items: flex-start;
 }
 
 /* Phones */
@@ -467,6 +527,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e0b0f",endCo
 
 /* Phones */
 @media screen and (min-width: 370px) and (max-width: 430px) {
+
+    .container {
+        padding: 0 36px;
+        margin: auto;
+    }
 
     .heroText h1 {
         width: 350px;
@@ -863,5 +928,38 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e0b0f",endCo
         position: absolute;
         width: 100%;
         bottom: -3px;
+    }
+
+    
+    /*-- -------------------------- -->
+    <---          QUALITIES         -->
+    <--- -------------------------- -*/
+
+    #qualities {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .qualities-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 !important;
+        padding: 0;
+        max-width: 1200px;
+        transform: translateY(-200px);
+    }
+
+    .quality-card {
+        width: 250px;
+        height: auto;
+        max-height: 400px;
+        background: #ffffff;
+    }
+
+    .spotlight {
+        max-height: 650px;
+        width: 350px;
+        background: var(--secondary);
     }
 }
