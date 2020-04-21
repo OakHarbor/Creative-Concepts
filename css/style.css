@@ -546,7 +546,7 @@
 @media screen and (min-width: 370px) and (max-width: 430px) {
 
     #hero {
-        height: 530px;
+        height: 630px;
     }
 
     .hero-content {
@@ -558,9 +558,9 @@
     }
 
     .heroText {
-        -webkit-transform: translateY(-10px);
-            -ms-transform: translateY(-10px);
-                transform: translateY(-10px);
+        -webkit-transform: translateY(-60px);
+            -ms-transform: translateY(-60px);
+                transform: translateY(-60px);
     }
 }
 
@@ -999,7 +999,7 @@
                 justify-content: space-between;
         margin: 0 !important;
         padding: 0;
-        max-width: 1200px;w
+        max-width: 1200px;
     }
 
     .quality-card {
