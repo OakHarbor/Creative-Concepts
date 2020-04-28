@@ -1,0 +1,571 @@
+/*-- -------------------------- -->
+<---          LANDING           -->
+<--- -------------------------- -*/
+
+#hero {
+    height: 120px;
+}
+
+#dark {
+    z-index: 0;
+}
+
+.about-box {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    -webkit-transform: translateY(60px);
+        -ms-transform: translateY(60px);
+            transform: translateY(60px);
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
+    box-shadow: 0 0 40px rgba(0,0,0,.1);
+    
+}
+
+.about-box h1 {
+    color: #404040;
+    position: relative;
+    z-index: 10000;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 20px 50px;
+
+}
+
+/*-- -------------------------- -->
+<---        ABOUT CARDS         -->
+<--- -------------------------- -*/
+
+.card-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 340px;
+    margin: auto;
+    padding: 50px 30px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
+    box-shadow: 0 0 40px rgba(0,0,0,.1);
+    margin-bottom: 50px;
+}
+
+.card:first-child {
+    margin-top: 100px;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.card svg {
+    height: 50px;
+    width: auto;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.card p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card button {
+    background: transparent;
+    color: var(--primary);
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.card button:before {
+    position: absolute;
+    content: url("/images/arrow.svg");
+    right: -20px;
+}
+
+/*-- -------------------------- -->
+<---        ABOUT CONTENT       -->
+<--- -------------------------- -*/
+
+.about-content {
+    margin-top: 30px;
+}
+
+.about-content-container img {
+    width: 100%;
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
+    box-shadow: 0 0 40px rgba(0,0,0,.1);
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.about-content p:first-child {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 0;
+}
+
+.about-content h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-left: 5px solid var(--primary);
+    padding-left: 20px;
+}
+
+.about-content ul {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.about-content ul li {
+    font-weight: 600;
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #222;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+.about-content ul li:before {
+    content: url("/images/check.svg");
+    width: 50px !important;
+    height: 50px !important;
+    margin-bottom: 10px;
+    position: absolute;
+    left: -50px;
+}
+
+.about-content ul li:before svg {
+    width: 100px !important;
+}
+
+/*-- -------------------------- -->
+<---         ABOUT STRIP        -->
+<--- -------------------------- -*/
+
+#about-strip {
+    background: url("/images/about-strip.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.strip-content h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.strip-content button {
+    display: block;
+    margin: auto;
+    margin-bottom: 180px;
+}
+
+#about-strip img {
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+}
+
+/*-- -------------------------- -->
+<---           STATS            -->
+<--- -------------------------- -*/
+
+.stat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 25px;
+}
+
+.stat p {
+    font-size: 60px;
+    font-weight: 600;
+    color: #121212;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stat h2 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
+
+.stat svg {
+    width: 60px !important;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+/*-- -------------------------- -->
+<---           STATS            -->
+<--- -------------------------- -*/
+
+#more-reviews {
+    padding-bottom: 0;
+}
+
+.sub-text {
+    font-size: 14px;
+    color: #999;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.review-text h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.last-p {
+    margin-bottom: 100px;
+}
+
+/* Large Iphones */
+@media screen and (min-width: 400px) and (max-width: 450px) {
+
+    .strip-content button {
+        margin-bottom: 220px;
+    }
+
+}
+
+/* Tablets */
+@media screen and (min-width: 681px) and (max-width: 1024px) {
+
+}
+
+
+/* Desktop */
+@media screen and  (min-width: 1024px) {
+
+    /*-- -------------------------- -->
+    <---           HERO             -->
+    /*--- -------------------------- -*/
+
+    #hero {
+        height: 500px;
+        background: url("/images/o\ \(39\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    .about-box {
+        width: 700px;
+        height: 200px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-transform: translateY(250px);
+            -ms-transform: translateY(250px);
+                transform: translateY(250px);
+    }
+
+    .about-box h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    /*-- -------------------------- -->
+    <---            CARDS           -->
+    /*--- -------------------------- -*/
+
+    .card-container {
+        margin-top: 150px;
+        max-width: 1250px;
+    }
+
+    .card {
+        margin: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        max-width: 390px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card:before {
+        position: absolute;
+        content: '';
+        width: 100px;
+        height: 100px;
+        background: #999;
+        opacity: .1;
+        border-radius: 50%;
+        left: -17px;
+    }
+
+    #svg1, #svg2, #svg3 {
+        margin-top: 0 !important;
+        margin-right: 20px;
+        height: 130px !important;
+        -webkit-transform: translateY(-20px);
+            -ms-transform: translateY(-20px);
+                transform: translateY(-20px);
+    }
+
+    .card:first-child {
+        margin: 0;
+    }
+
+    .card h2 {
+        text-align: left;
+    }
+
+    .card p {
+        text-align: left;
+    }
+
+    .card button {
+        margin-left: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---        ABOUT CONTENT       -->
+    /*--- -------------------------- -*/
+
+    .about-content-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        max-width: 1250px;
+    }
+
+    .about-content-container img {
+        width: 500px;
+        margin-right: 70px;
+        -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
+        box-shadow: 0 0 40px rgba(0,0,0,.1);
+    }
+
+    /*-- -------------------------- -->
+    <---         ABOUT STRIP        -->
+    /*--- -------------------------- -*/
+
+    #about-strip {
+        padding: 50px 0 !important;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        background-attachment: fixed;
+    }
+
+    .about-strip-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+
+    .strip-content {
+        height: auto;
+    }
+
+    .strip-content h2 {
+        width: 600px;
+        text-align: left;
+        font-size: 40px;
+    }
+
+    .strip-content button {
+        margin: auto;
+        margin-left: 0;
+    }
+
+    #about-strip img {
+        width: 800px;
+        height: auto !important;
+        right: 100px;
+        bottom: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---            STATS           -->
+    /*--- -------------------------- -*/
+
+    .stats-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .stat {
+        width: auto;
+    }
+
+    .stat .top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .stat .last-top {
+        width: 140px !important;
+        margin: auto;
+    }
+
+    .stat .top p {
+        height: auto;
+        font-size: 50px;
+    }
+
+    .stat .top svg {
+        margin: 0;
+        margin-right: 20px;
+        margin-top: 0;
+        -webkit-transform: translateY(-15px);
+            -ms-transform: translateY(-15px);
+                transform: translateY(-15px);
+    }
+
+    /*-- -------------------------- -->
+    <---        MORE REVIEWS         -->
+    /*--- -------------------------- -*/
+
+    #more-reviews .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        max-width: 1250px;
+        margin-bottom: 80px;
+    }
+
+    .reviews-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .review-text {
+        width: 450px;
+    }
+    .review {
+        width: 700px;
+    }
+
+}
