@@ -818,7 +818,7 @@
 }
 
 /* Tablets */
-@media screen and (min-width: 681px) and (max-width: 1024px) {
+@media screen and (min-width: 681px) and (max-width: 899px) {
 
     .container {
         max-width: 500px;
@@ -1016,9 +1016,20 @@
     }
 
 }
+/* Ipad Pro */
+@media screen and (min-width: 900px) and (max-width: 1025px) {
+
+    #hero {
+        max-height: 300px;
+    }
+
+    .container {
+        max-width: 900px !important;
+    }
+}
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1026px) {
 
     .section {
         padding-top: 100px;

@@ -368,6 +368,78 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*-- -------------------------- -->
+<---           LANDING          -->
+<--- -------------------------- -*/
+
+.landing-wave {
+    display: none;
+}
+
+#hero {
+    height: 530px;
+    width: 100%;
+    background: url("/images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+#dark {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .95;
+        background: #000;
+        background: -o-radial-gradient(circle, rgba(0,48,107,.6) 0%, rgba(0,0,0,1) 96%);
+        background: radial-gradient(circle, rgba(0,48,107,.6) 0%, rgba(0,0,0,1) 96%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00306b",endColorstr="#000000",GradientType=1);
+    z-index: 2;
+}
+
+.heroText {
+	padding-top: 0;
+    position: relative;
+    z-index: 3;
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.heroText h1 {
+	font-size: 1.8em;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	overflow-y: hidden;
+    margin: 0;
+    line-height: 1.3em;
+}
+
+/*-- -------------------------- -->
 <---           CONTACT          -->
 <--- -------------------------- -*/
 
@@ -739,6 +811,8 @@ h1, h2, h3, h4, h5, h6 {
 		border-right: none;
 		border-bottom: 4px solid var(--primary);
     }
+
+
 
     /*-- -------------------------- -->
     <---           CONTACT          -->

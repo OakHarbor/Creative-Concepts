@@ -4,6 +4,9 @@
 
 #hero {
     height: 120px;
+    background: url("/images/o\ \(39\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #dark {
@@ -38,6 +41,7 @@
 <--- -------------------------- -*/
 
 .card-container {
+    margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -292,22 +296,192 @@
 }
 
 /* Large Iphones */
-@media screen and (min-width: 400px) and (max-width: 450px) {
+@media screen and (min-width: 400px) and (max-width: 750px) {
+
+    .container {
+        max-width: 610px;
+    }
 
     .strip-content button {
-        margin-bottom: 220px;
+        margin-bottom: 250px;
+    }
+
+    #about-strip img {
+        max-width: 420px;
+        margin: auto;
     }
 
 }
 
 /* Tablets */
-@media screen and (min-width: 681px) and (max-width: 1024px) {
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+
+    .mobile-nav {
+        max-width: 100%;
+    }
+
+    /*-- -------------------------- -->
+    <---           HERO             -->
+    /*--- -------------------------- -*/
+
+    #hero {
+        height: 200px;
+    }
+
+    .about-box {
+        width: 600px;
+        height: 150px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transform: translateY(140px);
+            -ms-transform: translateY(140px);
+                transform: translateY(140px);
+    }
+
+    .about-box h1 {
+        font-size: 50px;
+    }
+
+    /*-- -------------------------- -->
+    <---            CARDS           -->
+    /*--- -------------------------- -*/
+
+    .card-container {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .card {
+        width: 45%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .card:last-child {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /*-- -------------------------- -->
+    <---        ABOUT CONTENT       -->
+    /*--- -------------------------- -*/
+
+    .about-content ul li:before {
+        -webkit-transform: translateY(-8px);
+            -ms-transform: translateY(-8px);
+                transform: translateY(-8px);
+    }
+
+    /*-- -------------------------- -->
+    <---         ABOUT STRIP        -->
+    /*--- -------------------------- -*/
+
+    .about-strip-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+
+    .strip-content {
+        height: auto;
+    }
+
+    .strip-content h2 {
+        width: 370px;
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .strip-content button {
+        margin: auto;
+        margin-left: 0;
+    }
+
+    #about-strip img {
+        width: 400px;
+        height: auto !important;
+        right: 0px;
+        bottom: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---            STRIP           -->
+    /*--- -------------------------- -*/
+
+    .stats-container {
+        margin-top: 50px;
+        padding-bottom: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .stat {
+        width: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .stat .top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .stat .last-top {
+        width: 140px !important;
+        margin: auto;
+    }
+
+    .stat .top p {
+        height: auto;
+        font-size: 50px;
+    }
+
+    .stat .top svg {
+        margin: 0;
+        margin-right: 20px;
+        margin-top: 0;
+        -webkit-transform: translateY(-15px);
+            -ms-transform: translateY(-15px);
+                transform: translateY(-15px);
+    }
 
 }
 
 
 /* Desktop */
-@media screen and  (min-width: 1024px) {
+@media screen and  (min-width: 1025px) {
 
     /*-- -------------------------- -->
     <---           HERO             -->
