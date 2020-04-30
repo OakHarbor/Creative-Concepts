@@ -83,7 +83,7 @@
 }
 
 .card:first-child {
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .card:last-child {
@@ -130,6 +130,7 @@
     position: absolute;
     content: url("/images/arrow.svg");
     right: -20px;
+    top: 18px;
 }
 
 /*-- -------------------------- -->

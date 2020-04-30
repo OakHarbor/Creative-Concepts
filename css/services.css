@@ -4,7 +4,8 @@
 
 #hero {
     height: 120px;
-    background: url("/images/o\ \(39\).jpg");
+    background: url("/images/image-19.jpg");
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -364,6 +365,10 @@
                 transform: translateY(140px);
     }
 
+    .about-box h1 {
+        font-size: 50px;
+    }
+
     .container {
         max-width: 900px;
     }
@@ -440,7 +445,7 @@
 
     #hero {
         height: 500px;
-        background: url("/images/o\ \(39\).jpg");
+        background: url("/images/image-19.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -560,6 +565,10 @@
         width: 44%;
         z-index: -1;
         top: 0px;
+    }
+
+    #contact-strip {
+        background: var(--primary);
     }
 
 }
