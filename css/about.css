@@ -225,7 +225,7 @@
     margin-bottom: 180px;
 }
 
-#about-strip img {
+#about-strip svg {
     width: 100%;
     position: absolute;
     bottom: -1px;
@@ -307,7 +307,7 @@
         margin-bottom: 250px;
     }
 
-    #about-strip img {
+    #about-strip svg {
         max-width: 420px;
         margin: auto;
     }
@@ -412,7 +412,7 @@
         margin-left: 0;
     }
 
-    #about-strip img {
+    #about-strip svg {
         width: 400px;
         height: auto !important;
         right: 0px;
@@ -645,7 +645,7 @@
         margin-left: 0;
     }
 
-    #about-strip img {
+    #about-strip svg {
         width: 800px;
         height: auto !important;
         right: 100px;
