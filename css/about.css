@@ -4,7 +4,7 @@
 
 #hero {
     height: 120px;
-    background: url("/images/o\ \(39\).jpg");
+    background: url("/images/about-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -490,7 +490,7 @@
 
     #hero {
         height: 500px;
-        background: url("/images/o\ \(39\).jpg");
+        background: url("/images/image-23.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
