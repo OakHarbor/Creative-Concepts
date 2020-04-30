@@ -683,8 +683,14 @@ h1, h2, h3, h4, h5, h6 {
                 align-items: center;
     }
 
-    .social i {
+    .social svg {
         color: #fff;
+        width: 20px !important;
+        height: auto;
+    }
+
+    .social svg:hover {
+        opacity: .7;
     }
 
     /* Hidden Elements */
