@@ -576,7 +576,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .about-box h1 {
-        font-size: 50px;
+        font-size: 3.125em;
     }
 
 }
@@ -637,7 +637,7 @@ h1, h2, h3, h4, h5, h6 {
     .top-nav-strip span {
         font-family: 'Arimo', sans-serif !important;
         color: #fff;
-        font-size: 14px;
+        font-size: 0.875em;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -874,7 +874,7 @@ h1, h2, h3, h4, h5, h6 {
         color: #404040;
         position: relative;
         z-index: 10000;
-        font-size: 35px;
+        font-size: 2.1875em;
         font-weight: 500;
         padding: 20px 50px;
     
@@ -907,7 +907,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .about-box h1 {
-        font-size: 60px;
+        font-size: 3.75em;
         text-align: center;
     }
 

@@ -30,7 +30,7 @@
     color: #404040;
     position: relative;
     z-index: 10000;
-    font-size: 35px;
+    font-size: 2.1875em;
     font-weight: 500;
     padding: 20px 50px;
 
@@ -98,14 +98,16 @@
 }
 
 .card h2 {
-    font-size: 20px;
+    font-size: 1.25em
+
+    ;
     text-align: center;
     margin-bottom: 15px;
     font-weight: 500;
 }
 
 .card p {
-    font-size: 15px;
+    font-size: 0.9375em;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -113,7 +115,7 @@
     background: transparent;
     color: var(--primary);
     padding: 0;
-    font-size: 15px;
+    font-size: 0.9375em;
     font-weight: bold;
     margin: auto;
     display: block;
@@ -152,7 +154,7 @@
 }
 
 .about-content p:first-child {
-    font-size: 14px;
+    font-size: 0.875em;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color: #999;
@@ -160,7 +162,7 @@
 }
 
 .about-content h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     margin-top: 10px;
     margin-bottom: 30px;
     border-left: 5px solid var(--primary);
@@ -176,7 +178,7 @@
     font-weight: 600;
     list-style: none;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 1.125em;
     color: #222;
     position: relative;
     display: -webkit-box;
@@ -215,7 +217,7 @@
 .strip-content h2 {
     color: #fff;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875em;
     margin-bottom: 50px;
 }
 
@@ -250,7 +252,7 @@
 }
 
 .stat p {
-    font-size: 60px;
+    font-size: 3.75em;
     font-weight: 600;
     color: #121212;
     text-align: center;
@@ -260,7 +262,7 @@
 .stat h2 {
     font-weight: 400;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .stat svg {
@@ -280,7 +282,7 @@
 }
 
 .sub-text {
-    font-size: 14px;
+    font-size: 0.875em;
     color: #999;
     font-weight: 400;
     text-transform: uppercase;
@@ -288,7 +290,7 @@
 }
 
 .review-text h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     margin-bottom: 25px;
 }
 
@@ -347,7 +349,7 @@
     }
 
     .about-box h1 {
-        font-size: 50px;
+        font-size:3.125em;
     }
 
     /*-- -------------------------- -->
@@ -404,7 +406,7 @@
     .strip-content h2 {
         width: 370px;
         text-align: left;
-        font-size: 30px;
+        font-size: 1.875em;
     }
 
     .strip-content button {
@@ -466,7 +468,7 @@
 
     .stat .top p {
         height: auto;
-        font-size: 50px;
+        font-size: 3.125em;
     }
 
     .stat .top svg {
@@ -515,7 +517,7 @@
     }
 
     .about-box h1 {
-        font-size: 60px;
+        font-size: 3.75em;
         text-align: center;
     }
 
@@ -637,7 +639,7 @@
     .strip-content h2 {
         width: 600px;
         text-align: left;
-        font-size: 40px;
+        font-size: 2.5em;
     }
 
     .strip-content button {
@@ -695,7 +697,7 @@
 
     .stat .top p {
         height: auto;
-        font-size: 50px;
+        font-size: 3.125em;
     }
 
     .stat .top svg {

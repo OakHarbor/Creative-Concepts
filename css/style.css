@@ -331,17 +331,17 @@
     margin-bottom: 10px;
     font-weight: 800;
     color: var(--primary);
-    font-size: 15px;
+    font-size: 0.9375em;
 }
 
 .right h2 {
-    font-size: 20px;
+    font-size: 1.25em;
     margin-bottom: 20px;
 }
 
 .right h3 {
     font-weight: 300;
-    font-size: 15px;
+    font-size: 0.9375em;
     margin-bottom: 40px;
 }
 
@@ -368,7 +368,7 @@
 
 .icons h3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: bold;
 }
 
@@ -561,7 +561,7 @@
 }
 
 .spotlight h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     line-height: 1.4em;
 }
 
@@ -762,7 +762,7 @@
 
     .heroText h1 {
         width: 350px;
-        font-size: 30px;
+        font-size: 1.875em;
     }
 
     .heroText h2 {
@@ -845,7 +845,7 @@
 
     #home-h {
         width: 550px;
-        font-size: 44px;
+        font-size: 2.75em;
     }
 
     #home-p {
@@ -995,7 +995,7 @@
     <--- -------------------------- -*/
 
     .gallery-topper h2 {
-        font-size: 30px;
+        font-size: 1.875em;
         width: 100%;
     }
 
@@ -1008,11 +1008,11 @@
     <--- -------------------------- -*/
 
     .review-topper h2 {
-        font-size: 40px;
+        font-size: 2.5em;
     }
 
     .review-topper p {
-        font-size: 20px;
+        font-size: 1.25em;
     }
 
 }
@@ -1298,11 +1298,11 @@
 
     .right p {
         margin-top: 0;
-        font-size: 18px;
+        font-size: 1.125em;
     }
 
     .right h2 {
-        font-size: 42px;
+        font-size: 2.625em;
     }
 
     .icon-group {
@@ -1349,7 +1349,7 @@
     }
 
     .video-content h2 {
-        font-size: 44px;
+        font-size: 2.75em;
         margin-top: 0px;
     }
     
@@ -1428,7 +1428,7 @@
     }
 
     .gallery-topper h2 {
-        font-size: 40px;
+        font-size: 2.5em;
     }
 
     .gallery img {
@@ -1440,7 +1440,7 @@
     <--- -------------------------- -*/
 
     .review-topper h2 {
-        font-size: 45px;
+        font-size: 2.8125em;
     }
 
     .review-group {
