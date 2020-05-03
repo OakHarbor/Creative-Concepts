@@ -30,7 +30,7 @@ p {
 	line-height: 1.6em;
 }
 
-p, a, li {
+p, a, li, span {
 	font-family: 'Poppins', sans-serif;
 	color: #555;
     margin: 0;
