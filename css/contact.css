@@ -249,7 +249,13 @@ form p{
     <---           LANDING          -->
     <--- -------------------------- -*/
 
+    .about-box {
+        width: 600px;
+    }
 
+    .about-box h1 {
+        font-size: 3.125em;
+    }
 
     /*-- -------------------------- -->
     <---            FORM            -->
@@ -276,6 +282,11 @@ form p{
         margin-top: 50px;
     }
 
+    .form-p {
+        min-width: 500px;
+        width: 500px;
+    }
+
     .contact-right {
         text-align: left;
         width: 500px;
@@ -292,7 +303,36 @@ form p{
     <---          LANDING           -->
     <--- -------------------------- -*/
 
-    
+    #hero {
+        height: 500px;
+        background: url("/images/image-19.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    .about-box {
+        width: 700px;
+        height: 200px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-transform: translateY(250px);
+            -ms-transform: translateY(250px);
+                transform: translateY(250px);
+    }
+
+    .about-box h1 {
+        font-size: 3.75em;
+        text-align: center;
+    }
 
     /*-- -------------------------- -->
     <---            FORM            -->
@@ -320,8 +360,20 @@ form p{
         max-width: 600px;
     }
 
+    .form-p {
+        margin-bottom: 50px;
+    }
+
     .contact-right {
         width: 300px;
+    }
+
+    .input1 {
+        width: 45% !important;
+    }
+
+    .right {
+        float: right;
     }
 
 }
