@@ -1678,7 +1678,9 @@ video {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+            -ms-transform: translateY(-20px);
+                transform: translateY(-20px);
     }
 
     .video-content h2 {
