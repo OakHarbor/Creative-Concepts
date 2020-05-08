@@ -1678,6 +1678,7 @@ video {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+        transform: translateY(-20px);
     }
 
     .video-content h2 {
@@ -1692,15 +1693,11 @@ video {
         margin-top: 0;
     }
 
-    .video {
-        height: 400px;
-        width: 600px;
+    video {
+        height: auto;
+        width: 700px;
         position: absolute;
         bottom: -350px;
-    }
-
-    .iframe {
-        height: 100%;
     }
 
     .bottom-image {
