@@ -648,7 +648,7 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        padding: 15px 30px;
+        padding: 10px 30px;
         border-right: 2px solid rgba(255, 255, 255, .09);
     }
 
@@ -948,6 +948,19 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+/* Ipad Pro */
+@media screen and (min-width: 450px) and (max-width: 1025px) {
+
+    .container {
+        max-width: 900px;
+    }
+
+    .mobile-nav {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
 
 
 
@@ -986,6 +999,13 @@ footer img {
     height: 70px;
     width: auto;
     margin-bottom: 30px;
+}
+
+footer .line {
+    height: 4px;
+    width: 20px;
+    background: var(--primary);
+    margin-bottom: 25px;
 }
 
 footer h2, footer p {
@@ -1052,7 +1072,7 @@ a i:hover {
 
 .branding a {
 	text-decoration: none;
-	color: var(--primary);
+	color: red;
 	margin-left: 2px;
     cursor: pointer;
     font-weight: 15px;

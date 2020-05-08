@@ -196,6 +196,7 @@
     margin-bottom: 10px;
     position: absolute;
     left: -50px;
+    top: -8px;
 }
 
 .about-content ul li:before svg {
@@ -249,6 +250,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     padding: 25px;
+    margin-bottom: 40px;
 }
 
 .stat p {
@@ -274,7 +276,7 @@
 }
 
 /*-- -------------------------- -->
-<---           STATS            -->
+<---          REVIEWS            -->
 <--- -------------------------- -*/
 
 #more-reviews {
@@ -286,7 +288,7 @@
     color: #999;
     font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .review-text h2 {
@@ -299,25 +301,74 @@
 }
 
 /* Large Iphones */
-@media screen and (min-width: 400px) and (max-width: 750px) {
+@media screen and (min-width: 400px) and (max-width: 899px) {
 
     .container {
         max-width: 610px;
     }
 
+    .mobile-nav {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /*-- -------------------------- -->
+    <---           LANDING          -->
+    /*--- -------------------------- -*/
+
+    .about-box {
+        width: 500px;
+    }
+
+    .about-box h1 {
+        font-size: 36px;
+    }
+
+    /*-- -------------------------- -->
+    <---            CARDS           -->
+    /*--- -------------------------- -*/
+
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+
+    .card {
+        width: 270px;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .card:last-child {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /*-- -------------------------- -->
+    <---            STIRP           -->
+    /*--- -------------------------- -*/
+
+    .about-strip-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .strip-content button {
-        margin-bottom: 250px;
+        margin-bottom: 240px;
     }
 
     #about-strip svg {
-        max-width: 420px;
-        margin: auto;
+        width: 400px;
     }
 
 }
 
-/* Tablets */
-@media screen and (min-width: 750px) and (max-width: 1024px) {
+/* Ipad Pro */
+@media screen and (min-width: 900px) and (max-width: 1025px) {
 
     .mobile-nav {
         max-width: 100%;
@@ -357,27 +408,52 @@
     /*--- -------------------------- -*/
 
     .card-container {
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 150px;
     }
 
     .card {
-        width: 45%;
-        margin-left: 0;
-        margin-right: 0;
+        max-width: 400px;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .card p {
+        height: 84px;
     }
 
     .card:last-child {
-        max-width: 100%;
         width: 100%;
+        max-width: 100%;
+    }
+
+    .card:last-child p {
+        height: auto;
+        width: 400px;
+        margin: auto;
     }
 
     /*-- -------------------------- -->
     <---        ABOUT CONTENT       -->
     /*--- -------------------------- -*/
+
+    .about-content-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-content {
+        margin-top: 0;
+    }
+
+    #about-content img {
+        width: 360px;
+        margin-right: 50px;
+        height: 480px !important;
+    }
 
     .about-content ul li:before {
         -webkit-transform: translateY(-8px);
@@ -388,6 +464,11 @@
     /*-- -------------------------- -->
     <---         ABOUT STRIP        -->
     /*--- -------------------------- -*/
+
+    #about-strip {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
 
     .about-strip-container {
         display: -webkit-box;
@@ -404,9 +485,9 @@
     }
 
     .strip-content h2 {
-        width: 370px;
+        width: 420px;
         text-align: left;
-        font-size: 1.875em;
+        font-size: 2em;
     }
 
     .strip-content button {
@@ -415,15 +496,15 @@
     }
 
     #about-strip svg {
-        width: 400px;
+        width: 600px;
         height: auto !important;
         right: 0px;
         bottom: 0;
     }
 
     /*-- -------------------------- -->
-    <---            STRIP           -->
-    /*--- -------------------------- -*/
+    <---             STAT           -->
+    /*--- ------------------------- -*/
 
     .stats-container {
         margin-top: 50px;
@@ -480,11 +561,27 @@
                 transform: translateY(-15px);
     }
 
+    /*-- -------------------------- -->
+    <---            STATS           -->
+    /*--- ------------------------- -*/
+
+    #stats {
+        padding-bottom: 0 !important;
+    }
+
+    /*-- -------------------------- -->
+    <---           REVIEWS          -->
+    /*--- ------------------------- -*/
+
+    .review-text {
+        width: 500px;
+    }
+
 }
 
 
 /* Desktop */
-@media screen and  (min-width: 1025px) {
+@media screen and  (min-width: 1026px) {
 
     /*-- -------------------------- -->
     <---           HERO             -->

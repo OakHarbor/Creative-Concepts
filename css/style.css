@@ -102,12 +102,16 @@
     margin-top: 30px;
     -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
     transition: .3s ease;
 }
 
 .about-button:hover {
     cursor: pointer;
     background-color: rgb(2, 131, 45);
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
     transition: .3s ease;
 }
 
@@ -343,6 +347,7 @@
     font-weight: 300;
     font-size: 0.9375em;
     margin-bottom: 40px;
+    line-height: 1.6em;
 }
 
 .icons {
@@ -357,7 +362,6 @@
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: 30px;
-    width: 200px;
 }
 
 .icons svg {
@@ -370,10 +374,12 @@
     margin: 0;
     font-size: 1.125em;
     font-weight: bold;
+    width: 150px;
 }
 
 .services-button {
     background: #bb161e;
+    margin-top: 30px;
 }
 
 .services-clippy-top {
@@ -457,9 +463,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-transform: translateY(-40px);
-        -ms-transform: translateY(-40px);
-            transform: translateY(-40px);
+    -webkit-transform: translateY(80px);
+        -ms-transform: translateY(80px);
+            transform: translateY(80px);
 }
 
 .video-content h2 {
@@ -477,6 +483,7 @@
     text-align: center;
     font-weight: 300;
     margin-bottom: 30px;
+    line-height: 1.6em;
 }
 
 .video {
@@ -491,9 +498,9 @@
     bottom: -200px;
 }
 
-.iframe {
+video {
     width: 100%;
-    height: 100%;
+    height: auto;
     position: relative;
     z-index: 1000;
 }
@@ -747,8 +754,28 @@
         width: 100%;
     }
 
+    .heroText h1 {
+        font-size: 2.1em;
+    }
+
+    .right h2 {
+        font-size: 2em;
+    }
+
     .about-button {
         margin-top: 60px;
+    }
+
+    .quality-card h2 {
+        font-size: 2em;
+    }
+
+    .video-content h2 {
+        font-size: 2em;
+    }
+
+    .gallery-topper h2 {
+        font-size: 2em;
     }
 }
 
@@ -810,10 +837,6 @@
     .icons {
         width: 180px;
         margin-right: 0;
-    }
-
-    .video {
-        height: 250px;
     }
 }
 
@@ -1004,6 +1027,29 @@
     }
 
     /*-- -------------------------- -->
+    <---           VIDEO          -->
+    <--- -------------------------- -*/
+
+    .video-content {
+        -webkit-transform: translateY(180px);
+            -ms-transform: translateY(180px);
+                transform: translateY(180px);
+    }
+
+    .video-content h2 {
+        font-size: 2.3em;
+    }
+
+    .video-content h3 {
+        margin-bottom: 40px;
+        width: 500px;
+    }
+
+    video {
+        width: 500px;
+    }
+
+    /*-- -------------------------- -->
     <---          REVIEWS           -->
     <--- -------------------------- -*/
 
@@ -1019,12 +1065,298 @@
 /* Ipad Pro */
 @media screen and (min-width: 900px) and (max-width: 1025px) {
 
-    #hero {
-        max-height: 300px;
+    .container {
+        max-width: 900px;
     }
 
-    .container {
-        max-width: 900px !important;
+    .mobile-nav {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .section {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    #hero {
+        height: 800px;
+    }
+
+    .heroText {
+        width: 700px;
+        -webkit-transform: translateY(-20px);
+            -ms-transform: translateY(-20px);
+                transform: translateY(-20px);
+    }
+
+    #home-h {
+        width: 550px;
+        font-size: 2.75em;
+    }
+
+    #home-p {
+        width: 450px;
+        font-size: 1.5em;
+    }
+
+    .about-button {
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    /*-- -------------------------- -->
+    <---          SERVICES          -->
+    <--- -------------------------- -*/
+
+    .services-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .left {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 350px;
+        width: 400px;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+        margin-right: 30px;
+    }
+
+    .left img {
+        display: block;
+        width: 160px;
+        height: 160px;
+    }
+
+    .left img:first-child, .left img:nth-child(3) {
+        -webkit-transform: translateY(-10px);
+            -ms-transform: translateY(-10px);
+                transform: translateY(-10px);
+        -webkit-animation-name: leftMove;
+                animation-name: leftMove;
+        -webkit-animation-duration: 4.5s;
+                animation-duration: 4.5s;
+        -webkit-animation-timing-function: ease-in-out;
+                animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+        -webkit-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+    }
+
+    .left img:nth-child(2), .left img:nth-child(4) {
+        -webkit-transform: translateY(10px);
+            -ms-transform: translateY(10px);
+                transform: translateY(10px);
+        -webkit-animation-name: rightMove;
+                animation-name: rightMove;
+        -webkit-animation-duration: 4.5s;
+                animation-duration: 4.5s;
+        -webkit-animation-timing-function: ease-in-out;
+                animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+        -webkit-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+    }
+
+    @-webkit-keyframes leftMove {
+        0% {
+            -webkit-transform: translateY(0px);
+                    transform: translateY(0px);
+        }
+
+        50% {
+            -webkit-transform: translateY(10px);
+                    transform: translateY(10px);
+        }
+
+        100% {
+            -webkit-transform: translateY(0px);
+                    transform: translateY(0px);
+        }
+    }
+
+    @keyframes leftMove {
+        0% {
+            -webkit-transform: translateY(0px);
+                    transform: translateY(0px);
+        }
+
+        50% {
+            -webkit-transform: translateY(10px);
+                    transform: translateY(10px);
+        }
+
+        100% {
+            -webkit-transform: translateY(0px);
+                    transform: translateY(0px);
+        }
+    }
+
+    @-webkit-keyframes rightMove {
+        0% {
+            -webkit-transform: translateY(0px);
+                    transform: translateY(0px);
+        }
+
+        50% {
+            -webkit-transform: translateY(-15px);
+                    transform: translateY(-15px);
+        }
+
+        100% {
+            -webkit-transform: translateY(0px);
+                    transform: translateY(0px);
+        }
+    }
+
+    @keyframes rightMove {
+        0% {
+            -webkit-transform: translateY(0px);
+                    transform: translateY(0px);
+        }
+
+        50% {
+            -webkit-transform: translateY(-15px);
+                    transform: translateY(-15px);
+        }
+
+        100% {
+            -webkit-transform: translateY(0px);
+                    transform: translateY(0px);
+        }
+    }
+
+    .right {
+        width: 550px;
+        height: auto;
+    }
+
+    .right p {
+        margin-top: 0;
+        font-size: 1.125em;
+    }
+
+    .right h2 {
+        font-size: 2.625em;
+    }
+
+    .icon-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .icons {
+        margin-bottom: 28px;
+        margin-right: 30px;
+        width: 220px;
+        margin: 0;
+        margin-bottom: 35px;
+    }
+
+    /*-- -------------------------- -->
+    <---           VIDEO            -->
+    <--- -------------------------- -*/
+
+    .video-content h2{
+        width: 600px;
+        font-size: 2.7em !important;
+    }
+
+    .video-content h3 {
+        width: 550px;
+    }
+
+    video {
+        width: 500px;
+    }
+
+    /*-- -------------------------- -->
+    <---          QUALITIES         -->
+    <--- -------------------------- -*/
+
+    #qualities {
+        margin-top: 160px;
+    }
+
+    .qualities-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .quality-card {
+        width: 400px;
+    }
+
+    /*-- -------------------------- -->
+    <---           GALLERY          -->
+    <--- -------------------------- -*/
+
+    .gallery-topper h2 {
+        font-size: 2em;
+    }
+
+    .gallery img {
+        width: 50%;
+        height: auto;
+    }
+
+    /*-- -------------------------- -->
+    <---           REVIEWS          -->
+    <--- -------------------------- -*/
+
+    .review-topper h2 {
+        font-size: 2.5em;
     }
 }
 
