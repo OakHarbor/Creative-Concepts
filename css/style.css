@@ -61,10 +61,10 @@
 }
 
 .heroText h1 {
-	font-size: 1.8em;
+	font-size: 2em;
 	color: #fff;
 	text-align: center;
-	font-weight: bold;
+	font-weight: 900;
 	overflow-y: hidden;
     margin: 0;
     line-height: 1.3em;
