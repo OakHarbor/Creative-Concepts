@@ -594,6 +594,14 @@
         top: 0px;
     }
 
+    .reason-content {
+        width: 440px;
+    }
+
+    .reason svg {
+        margin-right: 30px;
+    }
+
     #contact-strip {
         background: var(--primary);
     }
