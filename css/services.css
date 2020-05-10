@@ -168,6 +168,11 @@
             align-items: center;
 }
 
+.card-button:hover {
+    border: none;
+    opacity: .6;
+}
+
 .card-button:before {
     position: absolute;
     content: url("/images/arrow.svg");
@@ -249,6 +254,8 @@
 
 .reason-button:hover {
     opacity: .8;
+    border: none;
+    background: transparent;
 }
 
 /* Large Iphones */

@@ -1047,6 +1047,11 @@ a i:hover {
     transition: .3s ease;
 }
 
+.item-content a:hover {
+    cursor: pointer;
+    color: red;
+}
+
 .footer-item svg {
     width: 15px;
     height: auto;

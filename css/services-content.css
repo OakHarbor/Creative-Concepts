@@ -48,6 +48,8 @@
 .content-container h3 {
     font-size: 1.5em;
     margin-bottom: 15px;
+    border-left: 4px solid var(--primary);
+    padding-left: 20px;
 }
 
 ul {
