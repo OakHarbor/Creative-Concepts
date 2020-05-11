@@ -81,6 +81,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.desktop-call {
+    display: none !important;
+}
+
 .about-button {
     border: none;
     position: relative;
@@ -880,6 +884,10 @@ video {
         margin-top: 50px;
     }
 
+    .desktop-call {
+        display: none;
+    }
+
     /*-- -------------------------- -->
     <---          SERVICES          -->
     <--- -------------------------- -*/
@@ -1103,6 +1111,10 @@ video {
     .about-button {
         margin: auto;
         margin-top: 50px;
+    }
+
+    .desktop-call {
+        display: none;
     }
 
     /*-- -------------------------- -->
@@ -1451,6 +1463,14 @@ video {
 
     .about-button {
         margin-top: 60px;
+    }
+
+    .mobile-call {
+        display: none !important;
+    }
+
+    .desktop-call {
+        display: flex !important;
     }
 
     .landing-wave {
