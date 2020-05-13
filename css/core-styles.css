@@ -41,6 +41,7 @@ p, a, li, span {
 	color: #555;
     margin: 0;
     line-height: 28px;
+    font-size: 1em !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1044,7 +1045,7 @@ footer p {
 }
 
 .item-3 p {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 a i:hover {
@@ -1161,6 +1162,10 @@ a i:hover {
     
     .item-1 {
         width: 240px;
+    }
+
+    .item-3 p {
+        margin-bottom: 0px;
     }
 
 	.item-4 {
