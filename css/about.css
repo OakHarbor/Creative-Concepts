@@ -254,7 +254,7 @@
 }
 
 .stat p {
-    font-size: 3.75em;
+    font-size: 3.75em !important;
     font-weight: 600;
     color: #121212;
     text-align: center;
