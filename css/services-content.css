@@ -10,6 +10,14 @@
     background-size: cover;
 }
 
+.cabinets {
+    background: url("/images/cabinet-painting-11.JPG") !important;
+    background-position: top;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
 #dark {
     z-index: 0;
 }
@@ -31,7 +39,7 @@
     color: #404040;
     position: relative;
     z-index: 10000;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: 500;
     padding: 20px 50px;
     text-align: center;
@@ -40,6 +48,19 @@
 /*-- -------------------------- -->
 <---          CONTENT           -->
 <--- -------------------------- -*/
+
+#content .image-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#content .image-group img {
+    width: 46%;
+    display: inline-block;
+    box-shadow: 0 0 40px rgb(0 0 0 / 10%);
+}
 
 #content {
     margin-top: 50px;
@@ -207,4 +228,23 @@ ul li {
         height: 398px;
     }
 
+
+    #content .image-group img {
+        width: 18%;
+        height: 18%;
+    }
+
+    .highlight {
+        display: none;
+    }
+
+    .image-background {
+        background: url("../images/painted-cabinet.JPG");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+        margin: 50px 0;
+    }
 }
