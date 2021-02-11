@@ -1,0 +1,19 @@
+.image-background-top {
+    background: url("/images/roof1.jpg");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.image-background-top2 {
+    background: url("/images/roof2.jpg");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+}

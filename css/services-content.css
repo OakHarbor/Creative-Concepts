@@ -45,6 +45,10 @@
     text-align: center;
 }
 
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
 /*-- -------------------------- -->
 <---          CONTENT           -->
 <--- -------------------------- -*/
@@ -205,6 +209,7 @@ ul li {
     }
 
     #content .container {
+        max-width: 800px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
