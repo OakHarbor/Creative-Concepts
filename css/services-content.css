@@ -61,7 +61,8 @@
 }
 
 #content .image-group img {
-    width: 46%;
+    width: 150px;
+    height: 150px;
     display: inline-block;
     box-shadow: 0 0 40px rgb(0 0 0 / 10%);
 }
@@ -233,10 +234,15 @@ ul li {
         height: 398px;
     }
 
+    .image-group {
+        margin-bottom: 50px;
+    }
+
 
     #content .image-group img {
-        width: 18%;
-        height: 18%;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
     }
 
     .highlight {
