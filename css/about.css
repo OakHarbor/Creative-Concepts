@@ -273,6 +273,7 @@
 
 .stat svg {
     width: 60px !important;
+    height: 60px;
     height: auto;
     margin: auto;
     display: block;
@@ -707,6 +708,7 @@
 
     .about-content-container img {
         width: 500px;
+        height: 667px;
         margin-right: 70px;
         -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
         box-shadow: 0 0 40px rgba(0,0,0,.1);
